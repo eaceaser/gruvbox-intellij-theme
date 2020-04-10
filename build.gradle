@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.vincentp'
-version '0.2.1'
+version '0.2.1-eac'
 
 sourceCompatibility = 1.8
 
@@ -34,5 +34,5 @@ patchPluginXml {
       """
 
     sinceBuild '183.0'
-    untilBuild '195.*'
+    untilBuild '201.*'
 }
